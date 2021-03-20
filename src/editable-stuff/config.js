@@ -142,7 +142,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "If you have any questions, please feel free to reach out to me."
+    "If you have any questions, please feel free to reach out to me"
   
 };
 
@@ -174,5 +174,5 @@ const contactInfo = {
   email: "briwahouda@gmail.com",
   //phone: "+1 (914) - 233 - 4840",
   location: "Casablanca, Morocco"
-}
+};
 export { settings, seo, navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog, contactInfo };
