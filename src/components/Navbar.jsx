@@ -7,7 +7,7 @@ import Nav from "react-bootstrap/Nav";
 import { mainBody, repos, about, skills, blog } from "../editable-stuff/config.js";
 
 const Navigation = React.forwardRef((props, ref) => {
-  // const { showBlog, FirstName } = config;
+  const { showBlog, FirstName } = config;
   const [isTop, setIsTop] = useState(true);
   const [scrollPosition, setScrollPosition] = useState(0);
   const navbarMenuRef = React.useRef();
