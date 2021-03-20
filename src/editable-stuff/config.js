@@ -172,7 +172,7 @@ const blog = {
 
 const contactInfo = {
   email: "briwahouda@gmail.com",
-  phone: "+1 (914) - 233 - 4840",
+  //phone: "+1 (914) - 233 - 4840",
   location: "Casablanca, Morocco"
 }
 export { settings, seo, navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog, contactInfo };
