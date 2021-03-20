@@ -151,9 +151,9 @@ const experiences = {
 
 const blog = {
   show: true,
-  title: "blog",
+  heading: "Blog",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "I like writing notes of what I learnt.",
 
   data: [
     {
@@ -173,3 +173,4 @@ const blog = {
 };
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog };
+in
