@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import {
+  isSplash,
   navBar,
   mainBody,
   about,
@@ -69,6 +70,13 @@ const Home = React.forwardRef((props, ref) => {
           heading={skills.heading}
           hardSkills={skills.hardSkills}
           softSkills={skills.softSkills}
+        />
+      )}
+      {blog.show && (
+        <Skills
+          heading={blog.heading}
+          subtitle={blog.subtitle}
+          
         />
       )}
       
