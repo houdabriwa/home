@@ -164,7 +164,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "If you have any questions, please feel free to reach out to me"
+    "If you have any questions, please feel free to reach out to me",
+  email: "briwahouda@gmail.com"
 };
 
-export { seo, navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog, contactInfo };
+export { seo, navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog};
