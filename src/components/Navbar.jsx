@@ -7,7 +7,7 @@ import Nav from "react-bootstrap/Nav";
 import { settings, mainBody, repos, about, skills, blog } from "../editable-stuff/config.js";
 
 const Navigation = React.forwardRef((props, ref) => {
-  // const { showBlog, FirstName } = config;
+  const { showBlog, FirstName } = config;
   const [isTop, setIsTop] = useState(true);
   const [scrollPosition, setScrollPosition] = useState(0);
   const navbarMenuRef = React.useRef();
@@ -81,14 +81,6 @@ const Navigation = React.forwardRef((props, ref) => {
               href={process.env.PUBLIC_URL + "/#skills"}
             >
               Skills
-            </Nav.Link>
-          )}
-          {blog.show && (
-            <Nav.Link
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#blog"}
-            >
-              Blog
             </Nav.Link>
           )}
 
