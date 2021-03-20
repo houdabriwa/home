@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import {
-  settings,
   navBar,
   mainBody,
   about,
@@ -9,8 +8,7 @@ import {
   leadership,
   skills,
   getInTouch,
-  experiences,
-  blog
+  experiences
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
@@ -84,7 +82,7 @@ const App = () => {
     <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
       {navBar.show && <Navbar ref={titleRef} />}
       <Route path="/" exact component={() => <Home ref={titleRef} />} />
-      {false && <Route path="/blog" exact component={Blog} />}
+       {false && <Route path="/blog" exact component={Blog} />}
       {false && <Route path="/blog/:id" component={BlogPost} />} 
       <Footer>
         {getInTouch.show && (
