@@ -73,7 +73,7 @@ const Home = React.forwardRef((props, ref) => {
         />
       )}
       {blog.show && (
-        <Skills
+        <Blog
           heading={blog.heading}
           subtitle={blog.subtitle}
           
