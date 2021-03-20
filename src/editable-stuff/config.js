@@ -54,8 +54,8 @@ const about = {
   imageLink: require("../editable-stuff/houda.jpg"),
   imageSize: 375,
   message:
-    "My name is Houda Briwa. I’m recent Data science master graduate from polytechnic university of Madrid . I ‘m also a data and knowledge state engineer with a background in computer science, customer service and consulting and logistics. ",
-  resume: "https://drive.google.com/file/d/1LN0y5NhNdWHSe4NIn583Q_ndSORtO3sZ/view",
+    "Data and knowledge state engineer and a recent Data science master graduate from polytechnic university of Madrid. I have a background in customer service, consulting and logistics. My main research interest lie in the application of machine learning and deep learning in the field of social science and neuroscience.",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -100,23 +100,23 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
+    { name: "Python", value: 80 },
     { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "R", value: 75 },
+    { name: "Tableau", value: 70 },
+    { name: "Deep learning", value: 70 },
+    { name: "Machine Learning", value: 85 },
+    { name: "Statistics", value: 85 },
+    { name: "NLP", value: 70 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
+    { name: "Goal-Oriented", value: 90 },
+    { name: "Collaboration", value: 85 },
+    { name: "Negociation", value: 75 },
+    { name: "Adaptability", value: 80 },
     { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
+    { name: "Empathy", value: 80 },
+    { name: "Organization", value: 90 },
     { name: "Creativity", value: 90 },
   ],
 };
@@ -126,7 +126,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time data science or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for full-time data science opportunities! If you know of any positions available, if you have any questions, please feel free to email me at",
   email: "briwahouda@gmail.com",
 };
 
@@ -148,8 +148,10 @@ const experiences = {
 }
 
 // Blog SECTION
-// const blog = {
-//   show: false,
-// };
+const blog = {
+  show: True,
+  heading: "My notes" 
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+};
+
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog };
