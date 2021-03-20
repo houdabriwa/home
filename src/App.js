@@ -7,8 +7,8 @@ import {
   repos,
   leadership,
   skills,
-  getInTouch,
   experiences,
+  getInTouch,
   contactInfo
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
