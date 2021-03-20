@@ -149,7 +149,7 @@ const experiences = {
 
 // Blog SECTION
 const blog = {
-  show: True,
+  show: true,
   heading: "My notes" 
 
 };
