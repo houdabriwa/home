@@ -142,7 +142,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "If you have any questions, please feel free to reach me to me",
+    "If you have any questions, please feel free to reach out to me."
   
 };
 
