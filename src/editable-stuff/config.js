@@ -66,7 +66,8 @@ const about = {
   imageLink: require("../editable-stuff/houdabriwa.jpg"),
   imageSize: 300,
   message:
-    "Data and knowledge state engineer and a recent Data science master graduate from polytechnic university of Madrid. I have a background in customer service, consulting and logistics. I'm interested in the application of machine learning and deep learning in the field of social science and ergonomics.",
+    "My name is Houda Briwa. Data and knowledge state engineer and a recent Data science master graduate from polytechnic university of Madrid. "
+  "I have a background in customer service, consulting and logistics. I'm interested in the application of machine learning and deep learning in the field of social science and ergonomics.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
