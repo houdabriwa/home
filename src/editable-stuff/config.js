@@ -79,12 +79,12 @@ const leadership = {
     "Mounia Mikram, Maryem Rhanoui, Siham Yousfi, and Houda Briwa, “Unit Load Devices (ULD) Demand Forecasting in the Air Cargo for Optimal Cost Management”, Journal of Automation, Mobile Robotics and Intelligent Systems, March 2020, vol. 14, no 3, p.71-80.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/houda.jpg"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/houda.jpg"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
