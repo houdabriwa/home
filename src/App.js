@@ -72,13 +72,6 @@ const Home = React.forwardRef((props, ref) => {
           softSkills={skills.softSkills}
         />
       )}
-      {blog.show && (
-        <Blog
-          heading={blog.heading}
-          subtitle={blog.subtitle}
-          
-        />
-      )}
       
     </>
   );
@@ -91,7 +84,7 @@ const App = () => {
     <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
       {navBar.show && <Navbar ref={titleRef} />}
       <Route path="/" exact component={() => <Home ref={titleRef} />} />
-      {false && <Route path="/blog" exact component={Blog} />}
+      {{false && <Route path="/blog" exact component={Blog} />}
       {false && <Route path="/blog/:id" component={BlogPost} />} }
       <Footer>
         {getInTouch.show && (
