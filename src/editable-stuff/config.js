@@ -21,7 +21,7 @@ const mainBody = {
   firstName: "Houda",
   middleName: "",
   lastName: "BRIWA",
-  message: " Junior Data scientist, committed to make my contribution for a better, sustainable and joyful world",
+  message: " Committed to make my contribution for a better and sustainable world",
   icons: [
     {
       image: "fa-github",
