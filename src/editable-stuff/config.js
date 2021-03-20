@@ -173,4 +173,3 @@ const blog = {
 };
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog };
-in
