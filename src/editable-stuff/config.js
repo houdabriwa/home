@@ -134,8 +134,7 @@ const experiences = {
 // Blog SECTION
 const blog = {
   show: true,
-  heading: "My notes", 
- data: require('../blog')
+  heading: "My notes"
 };
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog };
