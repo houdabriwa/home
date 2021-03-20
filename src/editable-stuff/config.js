@@ -151,11 +151,11 @@ const experiences = {
 
 const blog = {
   show: true,
-  title: "Blog",
+  title: "blog",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
-  blogs: [
+  blog: [
     {
       url:
         "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
