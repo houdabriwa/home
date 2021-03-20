@@ -150,7 +150,8 @@ const experiences = {
 // Blog SECTION
 
 const blog = {
-  title: "Blogs",
+  show: true,
+  title: "Blog",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
@@ -168,8 +169,7 @@ const blog = {
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  ]
 };
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog };
