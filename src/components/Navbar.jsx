@@ -7,7 +7,7 @@ import Nav from "react-bootstrap/Nav";
 import { mainBody, repos, about, skills, blog } from "../editable-stuff/config.js";
 
 const Navigation = React.forwardRef((props, ref) => {
-    // const { showBlog, FirstName } = config;
+  const { showBlog, FirstName } = config;
   const [isTop, setIsTop] = useState(true);
   const [scrollPosition, setScrollPosition] = useState(0);
   const navbarMenuRef = React.useRef();
@@ -45,12 +45,12 @@ const Navigation = React.forwardRef((props, ref) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          {/* {
+          {{
            { {
              <Nav.Link className="nav-link lead">
                <Link to={process.env.PUBLIC_URL + "/blog"}>Blog</Link>
              </Nav.Link>
-           } */}
+           } }
           {repos.show && (
             <Nav.Link
               className="nav-link lead"
