@@ -142,8 +142,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time data science opportunities! If you know of any positions available, if you have any questions, please feel free to email me at",
-  email: "briwahouda@gmail.com",
+    "If you have any questions, please feel free to reach me to me",
+  
 };
 
 const experiences = {
@@ -170,4 +170,9 @@ const blog = {
   heading: "Blog"
 };
 
-export { settings, seo, navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog };
+const contactInfo = {
+  email: "briwahouda@gmail.com",
+  phone: "+1 (914) - 233 - 4840",
+  location: "Casablanca, Morocco"
+}
+export { settings, seo, navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog, contactInfo };
