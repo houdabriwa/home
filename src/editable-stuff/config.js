@@ -188,4 +188,4 @@ const blog = {
   ]
 };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog };
+export { settings, seo, navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog };
