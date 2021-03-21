@@ -135,7 +135,7 @@ const skills = {
 
 
 
-const experiences = {
+const languages = {
   show: true,
   heading: "Languages",
   data: [
