@@ -1,22 +1,22 @@
 import React from 'react';
-import ExperienceCard from "./ExperienceCard";
+import LanguagesCard from "./LanguagesCard";
 import {
     Container,
     Row,
     Jumbotron
 } from "react-bootstrap";
 
-const Experience = ({experiences}) => {
+const Languages = ({languages}) => {
     return (  
         <section className="section">
             <Container>
                 <Jumbotron fluid className="bg-white">
                     <h2 className="display-4 mb-5 text-center">
-                        {experiences.heading}
+                        {languages.heading}
                     </h2>
                     <Row>
                         {
-                            experiences.data.map(data => {
+                            languages.data.map(data => {
                                 return <ExperienceCard key={data.company} data={data} />
                             })
                         }
@@ -27,4 +27,4 @@ const Experience = ({experiences}) => {
     );
 }
  
-export default Experience;
+export default Languages;
