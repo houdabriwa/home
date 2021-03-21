@@ -141,8 +141,8 @@ const experiences = {
   data: [
     {
       role: 'Arabic, English, French',// Here Add Company Name
-      companylogo: 'ARABIC',
-      message: 'الكفاءات اللغوية',
+      //companylogo: 'ARABIC',
+      date: 'الكفاءات اللغوية',
     },
     {
       role: 'Front-End Developer',
