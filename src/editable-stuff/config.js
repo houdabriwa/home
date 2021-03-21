@@ -142,23 +142,26 @@ const languages = {
     {
       role: 'Arabic',// Here Add Company Name
       //companylogo: 'ARABIC',
-      prof: 'الكفاءات اللغوية',
+      prof: 'Fluent',
+      message: 'اللغة العربية هي لغتي الأم ، يمكنني استخدامها بمرونة وفعالية للقراءة والتحدث والكتابة عن أي نوع من الموضوعات أو المشاعر أو الآراء',
     },
     {
       role: 'French',
-      prof:'full proficiency',
-      message: 'compétence professionnelle complète. Je maintiens un discours fluide et maîtrise la lecture et l écriture, mais avec un vocabulaire moins avancé qu un natif.',
+      prof:'Fluent',
+      message: 'J ai étudié le Français depuis la maternelle. Je maintiens un discours fluide et maîtrise la lecture et l écriture, mais avec un vocabulaire moins avancé qu un natif.',
     },
     {
       role: 'English',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      //companylogo: require('../assets/img/boeing.png'),
+      prof: 'Fluent',
+      message:'I ve been using english since third grade. I can express myself spontaneously, very fluently and precisely, in a complex situations.',
     },
     {
       role: 'Spanish',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
+      c//ompanylogo: require('../assets/img/boeing.png'),
+      prof: 'Pre-intermediate',
+      message:'Aprendí español y lo utilicé durante mi estancia de un año en España. Puedo mantener conversaciones básicas en una amplia variedad de situaciones, pero sigo cometiendo errores gramaticales.' ,
+    }
   ]
 }
 
