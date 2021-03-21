@@ -168,7 +168,7 @@ const languages = {
 // Blog SECTION
 
 const blog = {
-  show: true,
+  show: false,
   heading: "Blog"
 };
 
@@ -181,4 +181,4 @@ const getInTouch = {
   email: "briwahouda@gmail.com"
 };
 
-export { seo, navBar, mainBody, about, repos, skills, leadership, getInTouch, languages, blog};
+export { seo, navBar, mainBody, about, repos, skills, leadership, getInTouch, languages};
