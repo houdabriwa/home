@@ -82,6 +82,14 @@ const Navigation = React.forwardRef((props, ref) => {
               Skills
             </Nav.Link>
           )}
+          {blog.show && (
+            <Nav.Link
+              className="nav-link lead"
+              href="https://houdabriwa.github.io/DataScienceNotes/"
+            >
+              Blog
+            </Nav.Link>
+          )}
         </Nav>
       </Navbar.Collapse>
     </Navbar>
