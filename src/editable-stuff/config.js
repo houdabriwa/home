@@ -158,7 +158,7 @@ const languages = {
     },
     {
       role: 'Spanish',
-      c//ompanylogo: require('../assets/img/boeing.png'),
+      //ompanylogo: require('../assets/img/boeing.png'),
       prof: 'Pre intermediate',
       message:'Aprendí español y lo utilicé durante mi estancia de un año en España. Puedo mantener conversaciones básicas en una amplia variedad de situaciones, pero sigo cometiendo errores gramaticales.' ,
     }
