@@ -17,7 +17,7 @@ const Languages = ({languages}) => {
                     <Row>
                         {
                             languages.data.map(data => {
-                                return <ExperienceCard key={data.company} data={data} />
+                                return <LanguagesCard key={data.company} data={data} />
                             })
                         }
                     </Row>
