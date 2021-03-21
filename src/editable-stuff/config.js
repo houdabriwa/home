@@ -148,7 +148,7 @@ const languages = {
     {
       role: 'French',
       prof:'Fluent',
-      message: 'J ai étudié le Français depuis la maternelle. Je maintiens un discours fluide et maîtrise la lecture et l écriture, mais avec un vocabulaire moins avancé qu un natif.',
+      message: 'J ai étudié le Français depuis la maternelle. Je peux m exprimer spontanément et très couramment, en différenciant les nuances les plus fines, même dans les situations les plus complexes.',
     },
     {
       role: 'English',
