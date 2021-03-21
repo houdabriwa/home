@@ -178,4 +178,4 @@ const getInTouch = {
   email: "briwahouda@gmail.com"
 };
 
-export { seo, navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog};
+export { seo, navBar, mainBody, about, repos, skills, leadership, getInTouch, languages, blog};
