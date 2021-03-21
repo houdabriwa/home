@@ -142,12 +142,12 @@ const languages = {
     {
       role: 'Arabic',// Here Add Company Name
       //companylogo: 'ARABIC',
-      date: 'الكفاءات اللغوية',
+      prof: 'الكفاءات اللغوية',
     },
     {
       role: 'French',
-      companylogo: 'compétence professionnelle complète. Je maintiens un discours fluide et maîtrise la lecture et l écriture, mais avec un vocabulaire moins avancé qu un natif.',
-      date: 'May 2017 – May 2018',
+      prof:'full proficiency"
+      message: 'compétence professionnelle complète. Je maintiens un discours fluide et maîtrise la lecture et l écriture, mais avec un vocabulaire moins avancé qu un natif.',
     },
     {
       role: 'English',
