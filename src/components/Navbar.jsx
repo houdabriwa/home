@@ -45,11 +45,11 @@ const Navigation = React.forwardRef((props, ref) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          {/* {
+          {
             <Nav.Link className="nav-link lead">
-              <Link to={process.env.PUBLIC_URL + "/blog"}>Blog</Link>
+              <Link to={process.env.PUBLIC_URL + "/blog"}>blog</Link>
             </Nav.Link>
-           } */}
+           } 
            {
             <Nav.Link className="nav-link lead"
               href="https://houdabriwa.github.io/DataScienceNotes/"
