@@ -140,22 +140,22 @@ const experiences = {
   heading: "Languages",
   data: [
     {
-      role: 'Arabic, English, French',// Here Add Company Name
+      role: 'Arabic',// Here Add Company Name
       //companylogo: 'ARABIC',
       date: 'الكفاءات اللغوية',
     },
     {
-      role: 'Front-End Developer',
+      role: 'French',
+      companylogo: 'compétence professionnelle complète. Je maintiens un discours fluide et maîtrise la lecture et l écriture, mais avec un vocabulaire moins avancé qu un natif.',
+      date: 'May 2017 – May 2018',
+    },
+    {
+      role: 'English',
       companylogo: require('../assets/img/boeing.png'),
       date: 'May 2017 – May 2018',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
-    {
-      role: 'Front-End Developer',
+      role: 'Spanish',
       companylogo: require('../assets/img/boeing.png'),
       date: 'May 2017 – May 2018',
     },
