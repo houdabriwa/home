@@ -3,7 +3,7 @@
 const seo = {
   title: "Houda's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Committed to make my contribution for a better and sustainable world",
   og: {
     title: "Houda Briwa Portfolio",
     type: "website",
@@ -21,7 +21,7 @@ const mainBody = {
   firstName: "Houda",
   middleName: "",
   lastName: "BRIWA",
-  message: " Committed to make my contribution for a better and sustainable world",
+  message: " Data science | Data visualization | Time series | NLP ",
   icons: [
     {
       image: "fa-github",
