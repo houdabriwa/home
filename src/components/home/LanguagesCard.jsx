@@ -11,7 +11,7 @@ const LanguagesCard = ({data}) => {
                 <img className=" bg-white mb-3" src={data.companylogo} alt=""/>
                      
                 <p className="lead">
-                    {data.role} 
+                    <b> {data.role} </b>
                     <br/>
                     {data.prof}
                     <br/>
