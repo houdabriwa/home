@@ -141,8 +141,18 @@ const experiences = {
   data: [
     {
       role: 'Arabic, English, French',// Here Add Company Name
-      //companylogo: require('../assets/img/dell.png'),
-      message: 'Fluent',
+      companylogo: 'ARABIC',
+      message: 'الكفاءات اللغوية',
+    },
+    {
+      role: 'Front-End Developer',
+      companylogo: require('../assets/img/boeing.png'),
+      date: 'May 2017 – May 2018',
+    },
+    {
+      role: 'Front-End Developer',
+      companylogo: require('../assets/img/boeing.png'),
+      date: 'May 2017 – May 2018',
     },
     {
       role: 'Front-End Developer',
