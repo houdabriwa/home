@@ -140,15 +140,15 @@ const languages = {
   heading: "Languages",
   data: [
     {
+      role: 'French',
+      prof:'Fluent',
+      message: 'J ai étudié le Français depuis la maternelle. Je peux m exprimer spontanément et très couramment, en différenciant les nuances les plus fines, même dans les situations les plus complexes.',
+    },
+    {
       role: 'Arabic',// Here Add Company Name
       //companylogo: 'ARABIC',
       prof: 'Fluent',
       message: 'اللغة العربية هي لغتي الأم ، يمكنني استخدامها بمرونة وفعالية للقراءة والتحدث والكتابة عن أي نوع من الموضوعات أو المشاعر أو الآراء',
-    },
-    {
-      role: 'French',
-      prof:'Fluent',
-      message: 'J ai étudié le Français depuis la maternelle. Je peux m exprimer spontanément et très couramment, en différenciant les nuances les plus fines, même dans les situations les plus complexes.',
     },
     {
       role: 'English',
