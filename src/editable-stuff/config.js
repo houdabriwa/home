@@ -136,13 +136,13 @@ const skills = {
 
 
 const experiences = {
-  show: false,
-  heading: "Experiences",
+  show: true,
+  heading: "Languages",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Arabic, English, French',// Here Add Company Name
+      //companylogo: require('../assets/img/dell.png'),
+      message: 'Fluent',
     },
     {
       role: 'Front-End Developer',
