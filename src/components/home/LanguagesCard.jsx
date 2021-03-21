@@ -11,11 +11,11 @@ const LanguagesCard = ({data}) => {
                 <img className=" bg-white mb-3" src={data.companylogo} alt=""/>
                      
                 <p className="lead">
-                    <b> {data.role} </b>
+                    <strong> {data.role} </strong>
                     <br/>
                     {data.prof}
                     <br/>
-                    {data.message}
+                    <i>{data.message}</i>
                 </p>
                 
             </div>
