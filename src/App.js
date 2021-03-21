@@ -21,7 +21,7 @@ import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
 
-import Languages from "./components/home/Languages";
+import Languages from "./components/home/Languages.jsx";
 
 const Home = React.forwardRef((props, ref) => {
   return (
