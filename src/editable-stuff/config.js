@@ -146,7 +146,7 @@ const languages = {
     },
     {
       role: 'French',
-      prof:'full proficiency"
+      prof:'full proficiency',
       message: 'compétence professionnelle complète. Je maintiens un discours fluide et maîtrise la lecture et l écriture, mais avec un vocabulaire moins avancé qu un natif.',
     },
     {
