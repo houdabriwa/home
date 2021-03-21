@@ -8,7 +8,6 @@ import {
   leadership,
   skills,
   languages,
-  blog,
   getInTouch
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
