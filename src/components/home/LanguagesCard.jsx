@@ -15,7 +15,7 @@ const LanguagesCard = ({data}) => {
                     <br/>
                     {data.prof}
                     <br/>
-                    <i>{data.message}</i>
+                    <i><small>{data.message}</small></i>
                 </p>
                 
             </div>
