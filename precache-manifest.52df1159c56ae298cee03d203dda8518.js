@@ -25,7 +25,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "bcaf3c93ca2bef2f320565c1e1394543",
-    "url": "/home/static/media/houda.bcaf3c93.jpg"
+    "url": "/home/static/media/houda.jpg"
   },
   {
     "revision": "652820adda33c488147ec39633f388b8",
@@ -33,6 +33,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "6367a57967dad20a9c6c68ddc72cba29",
-    "url": "/home/static/media/resume.6367a579.pdf"
+    "url": "/home/static/media/CV.pdf"
   }
 ]);
