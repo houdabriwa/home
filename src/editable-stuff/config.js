@@ -57,7 +57,7 @@ const mainBody = {
 //d) If you do not want any picture to be displayed, just leave it empty :)
 //      i.e: profilePictureLink: "",
 // For Resume either provide link to your resume or import from "editable-stuff" directory
-//     i.e resume: require("../editable-stuff/resume.pdf"),
+//     i.e resume: require("../editable-stuff/CV.pdf"),
 //         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 
 const about = {
@@ -67,7 +67,7 @@ const about = {
   imageSize: 300,
   message:
     "My name is Houda Briwa. I'am a coffee lover, Data and knowledge state engineer and a recent Data science master graduate from polytechnic university of Madrid. I have a background in customer service, consulting and logistics. My research interests lie in the application of machine learning and deep learning in the field of social science and ergonomics.",
-  resume: require("../editable-stuff/resume.pdf"),
+  resume: require("../editable-stuff/CV.pdf"),
 };
 
 // PROJECTS SECTION
