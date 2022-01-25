@@ -63,7 +63,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/houdabriwa.jpg"),
+  imageLink: require("../editable-stuff/houda.jpg"),
   imageSize: 300,
   message:
     "My name is Houda Briwa. I'am a coffee lover, Data and knowledge state engineer and a recent Data science master graduate from polytechnic university of Madrid. I have a background in customer service, consulting and logistics. My research interests lie in the application of machine learning and deep learning in the field of social science and ergonomics.",
@@ -78,7 +78,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "houdabriwa", //i.e."johnDoe12Gh"
+  gitHubUsername: "houdabriwa", 
   reposLength: 4,
   specificRepos: [],
 };
