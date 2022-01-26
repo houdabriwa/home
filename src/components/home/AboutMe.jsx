@@ -50,11 +50,11 @@ const AboutMe = ({ heading, message, link, imgSize, curriculum }) => {
           <div className={`col-lg-${showPic ? "7" : "12"}`}>
             <h2 className="display-4 mb-5 text-center">{heading}</h2>
             <p className="lead text-center">{message}</p>
-            {CV && (
+            {curriculum && (
               <p className="lead text-center">
                 <a
                   className="btn btn-outline-dark btn-lg"
-                  href={CV}
+                  href={curriculum}
                   target="_blank"
                   rel="noreferrer noopener"
                   role="button"
