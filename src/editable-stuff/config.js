@@ -66,7 +66,7 @@ const about = {
   imageLink: require("../editable-stuff/houda.jpg"),
   imageSize: 300,
   message:
-    "My name is Houda Briwa. I'am a coffee lover, Data and knowledge state engineer and a recent Data science master graduate from polytechnic university of Madrid. I have a background in customer service, consulting and logistics. My research interests lie in the application of machine learning and deep learning in the field of social science and ergonomics.",
+    "My name is Houda Briwa from Morocco. I'm a data geek and coffee lover. I hold a Data and knowledge state engineer degree from School of Information Sciences and a Master Degree of Data Science from polytechnic university of Madrid. I have a background in data consulting and logistics. I'm currently working toward a PhD degree in the field of applied data science to human factors. My research focuses on modelling human performance in a collaborative application.",
   curriculum: require("../editable-stuff/CV.pdf"),
 };
 
