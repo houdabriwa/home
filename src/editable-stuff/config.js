@@ -37,7 +37,7 @@ const mainBody = {
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/houdabriwa/",
+      url: "https://www.linkedin.com/in/briwahouda/",
     },
     {
       image: "fa-twitter",
