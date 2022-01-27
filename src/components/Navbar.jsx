@@ -85,7 +85,7 @@ const Navigation = React.forwardRef((props, ref) => {
           {
             <Nav.Link
               className="nav-link lead"
-              href="https://houdabriwa.github.io/DataScienceNotes/"
+              href="https://houdabriwa.github.io/MeNotes/"
             >
               Blog
             </Nav.Link>
