@@ -63,7 +63,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/houda.jpg"),
+  imageLink: require("../editable-stuff/houda.png"),
   imageSize: 300,
   message:
     "My name is Houda Briwa from Morocco. I'm a data geek and coffee lover. I hold a Data and knowledge state engineer degree from School of Information Sciences and a Master Degree of Data Science from polytechnic university of Madrid. I have a background in data consulting and logistics. I'm currently working toward a PhD degree in the field of applied data science to human factors. My research focuses on modelling human performance in a collaborative application.",
@@ -91,12 +91,12 @@ const leadership = {
     "Mounia Mikram, Maryem Rhanoui, Siham Yousfi, and Houda Briwa, “Unit Load Devices (ULD) Demand Forecasting in the Air Cargo for Optimal Cost Management”, Journal of Automation, Mobile Robotics and Intelligent Systems, March 2020, vol. 14, no 3, p.71-80.",
   images: [
     { 
-      img: require("../editable-stuff/houda.jpg"), 
+      img: require("../editable-stuff/houda.png"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/houda.jpg"), 
+      img: require("../editable-stuff/houda.png"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
