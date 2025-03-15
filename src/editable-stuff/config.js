@@ -21,7 +21,7 @@ const mainBody = {
   firstName: "Houda",
   middleName: "",
   lastName: "BRIWA",
-  message: " Data science | Data visualization | Time series | NLP ",
+  message: " Explainable AI (XAI) for Decision making | Data visualization | Bayesian Inference | Human Reliability in Safety Critical environment",
   icons: [
     {
       image: "fa-github",
@@ -66,7 +66,7 @@ const about = {
   imageLink: require("../editable-stuff/houda.png"),
   imageSize: 300,
   message:
-    "My name is Houda Briwa from Morocco. I'm a data geek and coffee lover. I hold a Data and knowledge state engineer degree from School of Information Sciences and a Master Degree of Data Science from polytechnic university of Madrid. I have a background in data consulting and logistics. I'm currently working toward a PhD degree in the field of applied data science to human factors. My research focuses on modelling human performance in a collaborative application.",
+    "I'm a PhD researcher developing Explainable AI (XAI) to decode how cognitive and contextual factors impact operator performance in human-system interactions for safety-critical environments. I combine Bayesian inference and human factors to predict, explain, and improve human reliability. Alongside research, I’m passionate about graphic design and science communication, crafting messages that resonate, inspire, and engage diverse audiences. As Chair of the MCAA Ireland Chapter, I focus on building a more inclusive, sustainable, and fair community. Outside the lab, you'll often find me exploring new trails, discovering cultures through food, or enjoying a great cup of coffee! ",
   curriculum: require("../editable-stuff/CV.pdf"),
 };
 
@@ -76,7 +76,7 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
   gitHubUsername: "houdabriwa", 
   reposLength: 2,
@@ -159,7 +159,7 @@ const languages = {
     {
       role: 'Spanish',
       //ompanylogo: require('../assets/img/boeing.png'),
-      prof: 'Pre intermediate',
+      prof: 'Intermediate',
       message:'Aprendí español y lo utilicé durante mi estancia de un año en España. Puedo mantener conversaciones básicas en una amplia variedad de situaciones, pero sigo cometiendo errores gramaticales.' ,
     }
   ]
