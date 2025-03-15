@@ -63,7 +63,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/houda.png"),
+  imageLink: require("../editable-stuff/profile_houda.png"),
   imageSize: 300,
   message:
     "I'm a PhD researcher developing Explainable AI (XAI) to decode how cognitive and contextual factors impact operator performance in human-system interactions for safety-critical environments. I combine Bayesian inference and human factors to predict, explain, and improve human reliability. Alongside research, I’m passionate about graphic design and science communication, crafting messages that resonate, inspire, and engage diverse audiences. As Chair of the MCAA Ireland Chapter, I focus on building a more inclusive, sustainable, and fair community. Outside the lab, you'll often find me exploring new trails, discovering cultures through food, or enjoying a great cup of coffee! ",
@@ -91,7 +91,7 @@ const leadership = {
     "Mounia Mikram, Maryem Rhanoui, Siham Yousfi, and Houda Briwa, “Unit Load Devices (ULD) Demand Forecasting in the Air Cargo for Optimal Cost Management”, Journal of Automation, Mobile Robotics and Intelligent Systems, March 2020, vol. 14, no 3, p.71-80.",
   images: [
     { 
-      img: require("../editable-stuff/houda.png"), 
+      img: require("../editable-stuff/profile_houda.png"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
