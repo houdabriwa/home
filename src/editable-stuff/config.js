@@ -142,25 +142,25 @@ const languages = {
     {
       role: 'French',
       prof:'Fluent',
-      message: 'J ai étudié le Français depuis la maternelle. Je peux m exprimer spontanément et très couramment, en différenciant les nuances les plus fines, même dans les situations les plus complexes.',
+       // message: 'J ai étudié le Français depuis la maternelle. Je peux m exprimer spontanément et très couramment, en différenciant les nuances les plus fines, même dans les situations les plus complexes.',
     },
     {
       role: 'Arabic',// Here Add Company Name
       //companylogo: 'ARABIC',
       prof: 'Fluent',
-      message: 'اللغة العربية هي لغتي الأم ، يمكنني استخدامها بمرونة وفعالية للقراءة والتحدث والكتابة عن أي نوع من الموضوعات أو المشاعر أو الآراء',
+       // message: 'اللغة العربية هي لغتي الأم ، يمكنني استخدامها بمرونة وفعالية للقراءة والتحدث والكتابة عن أي نوع من الموضوعات أو المشاعر أو الآراء',
     },
     {
       role: 'English',
       //companylogo: require('../assets/img/boeing.png'),
       prof: 'Fluent',
-      message:'I ve been using english since third grade. I can express myself spontaneously, very fluently and precisely, in a complex situations.',
+      // message:'I ve been using english since third grade. I can express myself spontaneously, very fluently and precisely, in a complex situations.',
     },
     {
       role: 'Spanish',
       //ompanylogo: require('../assets/img/boeing.png'),
       prof: 'Intermediate',
-      message:'Aprendí español y lo utilicé durante mi estancia de un año en España. Puedo mantener conversaciones básicas en una amplia variedad de situaciones, pero sigo cometiendo errores gramaticales.' ,
+      // message:'Aprendí español y lo utilicé durante mi estancia de un año en España. Puedo mantener conversaciones básicas en una amplia variedad de situaciones, pero sigo cometiendo errores gramaticales.' ,
     }
   ]
 }
